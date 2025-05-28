@@ -1,17 +1,25 @@
-# React + Vite
+# React + Vite Project
 
-____________________________________________________________________
-Basic comands to start the proyect:
+Este repositorio contiene un proyecto creado con **React** usando el entorno de desarrollo ultrarrápido de **Vite**. Aquí mantengo el código que estoy desarrollando de manera personal y académica.
 
-npm run dev 
+---
 
-Basic comands to make push to the proyect:
+## 🚀 Iniciar el proyecto
 
-git add .
+```bash
+npm install   # Instalar dependencias (solo la primera vez)
+npm run dev   # Iniciar el servidor de desarrollo
+```
 
-git commit -m "mensaje de cambios"
+📦 Comandos útiles para Git
+```bash
+git add .                         # Agrega todos los archivos al staging
+git commit -m "mensaje del commit"  # Crea un commit con un mensaje
+git push                          # Envía los cambios al repositorio remoto
+```
 
-git push
-____________________________________________________________________
-
-By: Balam Sánchez Valdivia
+👨‍💻 Autor
+Balam Sánchez Valdivia
+ 
+Descripción del proyecto.
+Este es un proyecto personalizado para un estudio de entrenamiento fisico y pueda hacer presencia de forma digital.

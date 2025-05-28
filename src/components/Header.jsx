@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi"; // Íconos de menú y cerrar
+import { FiMenu, FiX } from "react-icons/fi";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-gradient-to-b from-black to-blue-900 px-4 py-7 text-xl font-black">
+    <header className="relative w-full bg-gradient-to-b from-black to-blue-900 px-4 py-7 text-xl font-black">
       
-      {/* Menú en Computadoras y Tablets (Diseño Original) */}
+      {/* Menú para computadoras/tablets */}
       <nav className="hidden md:flex text-white items-center w-full justify-evenly">
         <a href="#quienes-somos" className="hover:text-blue-400 transition duration-300">
           Quienes somos
@@ -16,7 +16,7 @@ function Header() {
           Productos
         </a>
 
-        {/* Logo en el centro */}
+        {/* Logo central */}
         <a href="/" rel="noopener noreferrer">
           <img src="/public/LogoO&O_solo_transparent.png" alt="Logo Studio" className="h-20 w-20 object-contain"/>
         </a>
@@ -29,32 +29,29 @@ function Header() {
         </a>
       </nav>
 
-      {/* Botón de menú hamburguesa en móviles */}
-      <div className="md:hidden flex justify-between items-center">
-        {/* Logo más pequeño en móviles */}
+      {/* Menú móvil */}
+      <div className="md:hidden flex justify-between items-center relative z-20">
         <a href="/" rel="noopener noreferrer">
           <img src="/public/LogoO&O_solo_transparent.png" alt="Logo Studio" className="h-14 w-14 object-contain"/>
         </a>
 
-        {/* Botón de menú */}
         <button
           className="text-white text-3xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <FiX /> : <FiMenu />} {/* Cambia entre ☰ y ✖ */}
+          {isOpen ? <FiX /> : <FiMenu />}
         </button>
       </div>
 
-      {/* Menú desplegable en móviles */}
+      {/* Menú flotante en móviles */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 py-4 bg-blue-900 text-lg">
-          <a href="#quienes-somos" className="hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Quienes somos</a>
-          <a href="#productos" className="hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Productos</a>
-          <a href="#agendar-cita" className="hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Agendar cita</a>
-          <a href="#ubicacion" className="hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Ubicación</a>
+        <div className="absolute top-full left-0 w-full bg-blue-900 text-white text-lg flex flex-col divide-y divide-white shadow-lg z-10 md:hidden">
+          <a href="#quienes-somos" className="py-3 px-6 text-center hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Quienes somos</a>
+          <a href="#productos" className="py-3 px-6 text-center hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Productos</a>
+          <a href="#agendar-cita" className="py-3 px-6 text-center hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Agendar cita</a>
+          <a href="#ubicacion" className="py-3 px-6 text-center hover:text-blue-400 transition duration-300" onClick={() => setIsOpen(false)}>Ubicación</a>
         </div>
       )}
-
     </header>
   );
 }

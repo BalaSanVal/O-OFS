@@ -54,7 +54,7 @@ function BodyMain () {
                         </a>
                     </div>
                     <div className="flex-1 flex justify-center">
-                        <img src="https://scontent.fmex1-1.fna.fbcdn.net/v/t39.30808-6/411922200_733667925478151_145033598321889203_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEDABeR1XfFWhaPRf2jPy4nhBvux_dMoa2EG-7H90yhrY2JKbciiAOfFnqJwBSo5WbunURD7wSUXi5LL4Tdt4-C&_nc_ohc=WO3tGHVVVxoQ7kNvgGUZH7k&_nc_oc=Adi6cDpIQTlX90h1jDL_sF6cd8DiXY9xtkKCFyvWazItHzSNzrhDDkF7gM5TiRVtN9E&_nc_zt=23&_nc_ht=scontent.fmex1-1.fna&_nc_gid=AvHeci_qdwG-iBRGJpiAYYU&oh=00_AYAaIOhyo6-fVKE7CNFYJsiyvjjgDrYOz8v0d4nQrzrojg&oe=67AC4F75" alt="Horarios" className="w-96 h-auto rounded-lg shadow-lg"/>
+                        <img src="https://scontent.fmex1-4.fna.fbcdn.net/v/t39.30808-6/476654438_1000274205484187_6660398713693286817_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5Vr0devPoGEQ7kNvwGQihsb&_nc_oc=Adn5NX9H8iXSR74dzEtUaDpbmBVyXSZAGik31LWPCpzpw8WG8dENbb4v-ninrn2BzJ0&_nc_zt=23&_nc_ht=scontent.fmex1-4.fna&_nc_gid=F7ZXgGcBsXBxBxaEkBUC9w&oh=00_AfLbyfVHNdPyi7KHpVBT0GfMVshJJkLstnSFHz2dRkwGVw&oe=683C54F7" alt="Horarios" className="w-96 h-auto rounded-lg shadow-lg"/>
                     </div>
                 </div>
             </div>

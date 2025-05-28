@@ -1,8 +1,26 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene un proyecto creado con **React** usando el entorno de desarrollo ultrarrápido de **Vite**. Aquí mantengo el código que estoy desarrollando de manera personal y académica.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Iniciar el proyecto
+
+```bash
+npm install   # Instalar dependencias (solo la primera vez)
+npm run dev   # Iniciar el servidor de desarrollo
+```
+
+📦 Comandos útiles para Git
+```bash
+git add .                         # Agrega todos los archivos al staging
+git commit -m "mensaje del commit"  # Crea un commit con un mensaje
+git push                          # Envía los cambios al repositorio remoto
+```
+
+👨‍💻 Autor
+Balam Sánchez Valdivia
+ 
+Descripción del proyecto:
+
+Este es un proyecto personalizado para un estudio de entrenamiento fisico y pueda hacer presencia de forma digital.

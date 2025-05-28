@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import logo from '../assets/images/LogoO&O_solo_transparent.png'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ function Header() {
 
         {/* Logo central */}
         <a href="/" rel="noopener noreferrer">
-          <img src="/LogoO&O_solo_transparent.png" alt="Logo Studio" className="h-20 w-20 object-contain"/>
+          <img src={logo} alt="Logo Studio" className="h-20 w-20 object-contain"/>
         </a>
 
         <a href="#agendar-cita" className="hover:text-blue-400 transition duration-300">

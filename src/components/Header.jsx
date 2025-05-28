@@ -18,7 +18,7 @@ function Header() {
 
         {/* Logo central */}
         <a href="/" rel="noopener noreferrer">
-          <img src="/public/LogoO&O_solo_transparent.png" alt="Logo Studio" className="h-20 w-20 object-contain"/>
+          <img src={logo} alt="Logo Studio" className="h-20 w-20 object-contain"/>
         </a>
 
         <a href="#agendar-cita" className="hover:text-blue-400 transition duration-300">

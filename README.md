@@ -2,11 +2,15 @@
 
 ____________________________________________________________________
 Basic comands to start the proyect:
+
 npm run dev 
 
 Basic comands to make push to the proyect:
+
 git add .
+
 git commit -m "mensaje de cambios"
+
 git push
 ____________________________________________________________________
 

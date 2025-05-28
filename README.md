@@ -21,5 +21,6 @@ git push                          # Envía los cambios al repositorio remoto
 👨‍💻 Autor
 Balam Sánchez Valdivia
  
-Descripción del proyecto.
+Descripción del proyecto:
+
 Este es un proyecto personalizado para un estudio de entrenamiento fisico y pueda hacer presencia de forma digital.

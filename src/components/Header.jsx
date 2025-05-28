@@ -33,7 +33,7 @@ function Header() {
       {/* Menú móvil */}
       <div className="md:hidden flex justify-between items-center relative z-20">
         <a href="/" rel="noopener noreferrer">
-          <img src="/public/LogoO&O_solo_transparent.png" alt="Logo Studio" className="h-14 w-14 object-contain"/>
+          <img src={logo} alt="Logo Studio" className="h-14 w-14 object-contain"/>
         </a>
 
         <button
